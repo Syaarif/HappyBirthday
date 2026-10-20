@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#2a111b">
+  <meta name="description" content="Sebuah hadiah kecil yang dibuat dengan penuh kasih.">
+  <title>For Someone Special</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Kembali ke atas">♡ <span>for you</span></a>
+    <button class="music-button" id="musicToggle" type="button" aria-pressed="false">
+      <span class="music-dot" aria-hidden="true"></span><span id="musicLabel">Putar musik</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-orbit orbit-one" aria-hidden="true"></div>
+      <div class="hero-orbit orbit-two" aria-hidden="true"></div>
+      <p class="eyebrow fade-up">A LITTLE SOMETHING, MADE FOR YOU</p>
+      <div class="hero-heart" aria-hidden="true">♡</div>
+      <h1 class="fade-up">To my <em>favorite</em><br>person.</h1>
+      <p class="hero-copy fade-up">Ada hal-hal yang lebih indah saat dirayakan,<br class="desktop-only"> dan hari ini adalah salah satunya.</p>
+      <a class="button button-primary fade-up" href="#letter">Buka hadiah kecil ini <span>↗</span></a>
+      <p class="scroll-note">SCROLL PELAN-PELAN <span>↓</span></p>
+      <div class="hero-sparkle sparkle-one" aria-hidden="true">✦</div>
+      <div class="hero-sparkle sparkle-two" aria-hidden="true">✧</div>
+      <div class="hero-sparkle sparkle-three" aria-hidden="true">✦</div>
+    </section>
+
+    <section class="countdown section section-narrow" aria-labelledby="countdown-title">
+      <p class="eyebrow">A DAY WORTH CELEBRATING</p>
+      <h2 id="countdown-title">Menuju hari <em>istimewamu</em></h2>
+      <p class="section-intro" id="countdownMessage">Menghitung waktu menuju hari spesialmu.</p>
+      <div class="count-grid" aria-label="Hitung mundur ulang tahun">
+        <div class="count-item"><strong id="days">00</strong><span>hari</span></div>
+        <div class="count-item"><strong id="hours">00</strong><span>jam</span></div>
+        <div class="count-item"><strong id="minutes">00</strong><span>menit</span></div>
+        <div class="count-item"><strong id="seconds">00</strong><span>detik</span></div>
+      </div>
+      <p class="tiny-note">Waktu boleh berjalan, semoga hal-hal baik selalu menemukanmu.</p>
+    </section>
+
+    <section class="letter-section section" id="letter">
+      <div class="letter-wrap">
+        <div class="letter-heading">
+          <p class="eyebrow">A LETTER, JUST FOR YOU</p>
+          <h2>Untuk kamu,<br><em>yang begitu berarti.</em></h2>
+          <p class="section-intro">Ada beberapa kata yang ingin kusampaikan, meski rasanya tidak akan pernah cukup.</p>
+        </div>
+        <article class="letter-card">
+          <div class="letter-stamp" aria-hidden="true">♡</div>
+          <p class="letter-date" id="letterDate">DENGAN SEPENUH HATI</p>
+          <h3>Hai, sayanggg..</h3>
+          <div class="letter-body">
+            <p>Selamat ulang tahun, yaaaaa. 🤍</p>
+            <p>Semoga di usia yang baru ini, kamu diberi banyak alasan untuk tersenyum, hati yang lebih tenang, kesehatan, dan keberanian untuk mengejar hal-hal yang kamu impikan.</p>
+            <p>Terima kasih sudah menjadi dirimu sendiri. Aku harap kamu selalu ingat bahwa kamu berharga, bukan hanya karena apa yang kamu lakukan, tetapi juga karena siapa dirimu.</p>
+            <p>Kalau suatu hari terasa berat, semoga kamu tetap menemukan hal kecil yang membuatmu ingin mencoba lagi. Aku akan ikut senang melihatmu tumbuh, belajar, dan meraih hal-hal baik satu per satu.</p>
+            <p>Semoga tahun ini membawa cerita indah yang kelak bisa kita kenang sambil tersenyum.</p>
+            <p class="letter-signoff">Dengan sayang,<br><span>orang yang selalu mendoakanmu ♡</span></p>
+          </div>
+          <div class="letter-flower" aria-hidden="true">✿</div>
+        </article>
+      </div>
+    </section>
+
+    <section class="memories section" id="memories">
+      <div class="section-heading">
+        <p class="eyebrow">LITTLE MOMENTS, BIG MEANING</p>
+        <h2>Potongan cerita <em>kita.</em></h2>
+        <p class="section-intro">Beberapa momen sederhana yang terasa istimewa.</p>
+      </div>
+      <div class="photo-grid">
+        <figure class="memory-card memory-tall">
+          <div class="photo-frame"><img src="assets/img1.png" alt="Kenangan pertama" loading="lazy"><span class="photo-placeholder" aria-hidden="true">First Picture</span></div>
+          <figcaption><span class="memory-number">01 / A MOMENT</span><strong>Momen pertama kamu ngajak fotbar</strong><span>Waktu itu, kamu mengajak aku fotbar setelah kamu memberanikan diri untuk confess ke aku.</span></figcaption>
+        </figure>
+        <figure class="memory-card memory-offset">
+          <div class="photo-frame"><img src="assets/img2.png" alt="Kenangan kedua" loading="lazy"><span class="photo-placeholder" aria-hidden="true">Couple Goals</span></div>
+          <figcaption><span class="memory-number">02 / A SMILE</span><strong>Giliran aku ini yang mengajak</strong><span>Kamu selalu cantik, yang ini lucu couple goals banget hshshs</span></figcaption>
+        </figure>
+        <figure class="memory-card">
+          <div class="photo-frame"><img src="assets/img3.png" alt="Kenangan ketiga" loading="lazy"><span class="photo-placeholder" aria-hidden="true">Jogja date(?)</span></div>
+          <figcaption><span class="memory-number">03 / OUR STORY</span><strong>Jogja ini sangat istimewa</strong><span>Kamu tahu? Aku ingin mengunjungi Jogja lagi, bersama kamu.</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="cake-section section" id="cake">
+      <div class="cake-content">
+        <p class="eyebrow">MAKE A WISH</p>
+        <h2>Satu harapan,<br><em>untuk tahun barumu.</em></h2>
+        <p class="section-intro">Pejamkan mata sebentar, pikirkan satu harapan, lalu tiup lilinnya dengan menekan tombol di bawah. ✨</p>
+        <div class="cake-scene" id="cakeScene">
+          <div class="cake-glow" aria-hidden="true"></div>
+          <div class="flame" id="flame" aria-label="Lilin menyala"><span></span></div>
+          <div class="candle"></div>
+          <div class="cake-top"></div>
+          <div class="cake-body"><div class="icing"></div><div class="cake-drip drip-one"></div><div class="cake-drip drip-two"></div><div class="cake-drip drip-three"></div></div>
+          <div class="cake-plate"></div>
+          <span class="cake-heart heart-left" aria-hidden="true">♡</span><span class="cake-heart heart-right" aria-hidden="true">✧</span>
+        </div>
+        <button class="button button-primary" id="blowCandle" type="button">Tiup lilinnya ♡</button>
+        <p class="cake-feedback" id="cakeFeedback" aria-live="polite">Semoga harapan baikmu menemukan jalannya.</p>
+      </div>
+    </section>
+
+    <section class="surprise-section section section-narrow" id="surprise">
+      <p class="eyebrow">ONE LAST LITTLE THING</p>
+      <h2>Masih ada satu <em>kejutan.</em></h2>
+      <p class="section-intro">Karena ucapan baik seharusnya tidak berhenti di satu halaman.</p>
+      <button class="button button-outline" id="surpriseButton" type="button">Buka kejutanmu <span>♡</span></button>
+      <div class="surprise-message" id="surpriseMessage" hidden>
+        <div class="surprise-icon" aria-hidden="true">✦</div>
+        <h3>Untuk semua hari yang akan datang...</h3>
+        <p>Semoga kamu selalu dikelilingi ketulusan, punya ruang untuk menjadi diri sendiri, dan tidak lupa merayakan kemajuan kecilmu. Kamu pantas mendapatkan hal-hal baik, hari ini dan seterusnya. Selamat ulang tahun, sayang. ♡</p>
+        <div class="confetti-area" id="confettiArea" aria-hidden="true"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-heart" aria-hidden="true">♡</div>
+    <p>Dibuat dengan sepenuh hati, hanya untukmu.</p>
+    <span>WITH LOVE · ALWAYS</span>
+  </footer>
+
+  <audio id="birthdayMusic" src="assets/music.mp3" loop preload="none"></audio>
+</body>
+</html>
